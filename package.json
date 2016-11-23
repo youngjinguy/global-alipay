@@ -1,0 +1,28 @@
+{
+  "name": "global-alipay",
+  "version": "1.0.3",
+  "description": "global alipay",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "cd test && npm install / npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngjinguy/global-alipay.git"
+  },
+  "keywords": [
+    "alipay",
+    "global-alipay"
+  ],
+  "author": "youngjinguy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youngjinguy/global-alipay/issues"
+  },
+  "homepage": "https://github.com/youngjinguy/global-alipay#readme"
+}

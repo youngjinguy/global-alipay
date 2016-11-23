@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/alipay.css' />
+  </head>
+  <body text=#000000 bgColor=#ffffff leftMargin=0 topMargin=4>
+    <div id="main">
+      <div id="head">
+        <dl class="alipay_link">
+          <a target="_blank" href="http://www.alipay.com/"><span>alipay home</span></a>|
+          <a target="_blank" href="https://b.alipay.com/home.htm"><span>business customer service </span></a>|
+          <a target="_blank" href="http://help.alipay.com/support/index_sh.htm"><span>customer service </span></a>
+        </dl>
+        <span class="title">Alipay Gateway</span>
+      </div>
+      <form name="alipayment" action="/payment" method="post">
+        <div id="body" style="clear:left">
+          <dl class="content">
+            <dt>
+              trade no
+              ：
+            </dt>
+            <dd><span class="null-star">*</span>
+              <input size="30" name="WIDout_trade_no"/><span></span>
+            </dd>
+            <dt>
+              currency
+              ：
+            </dt>
+            <dd><span class="null-star">*</span>
+              <input size="30" name="WIDcurrency"/><span></span>
+            </dd>
+            <dt>
+              subject
+              ：
+            </dt>
+            <dd><span class="null-star">*</span>
+              <input size="30" name="WIDsubject"/><span></span>
+            </dd>
+            <dt>
+              body (description)
+              ：
+            </dt>
+            <dd><span class="null-star">*</span>
+              <input size="30" name="WIDbody"/><span></span>
+            </dd>
+            <dt> total fee：</dt>
+            <dd><span class="null-star">*</span>
+              <input size="30" name="WIDtotal_fee"/><span></span>
+            </dd>
+            <dt></dt>
+            <dd><span class="new-btn-login-sp">
+                <button type="submit" class="new-btn-login">submit</button></span></dd>
+          </dl>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
