@@ -1,0 +1,2 @@
+# global-alipay
+global alipay
