@@ -28,6 +28,7 @@ router.route('/payment')
       payment.total_fee = req.body.WIDtotal_fee
       payment.notify_url = 'http://127.0.0.1:3000/notify'
       payment.return_url = 'http://127.0.0.1:3000/return'
+      payment._input_charset = 'utf-8'
       res.send(alipay.payment(payment))
     }
 )
