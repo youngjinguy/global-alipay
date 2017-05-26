@@ -1,12 +1,15 @@
 {
   "name": "global-alipay",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "global alipay",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "request": "^2.81.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "cd test && npm install / npm start"
